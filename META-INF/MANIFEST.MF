@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HealthMonitoring
+Bundle-SymbolicName: HealthMonitoring
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: HealthMonitoring.jar,
+ vivek.nityo/.m2/repository/io/cucumber/cucumber-core/7.19.0/cucumber-core-7.19.0.jar
+Automatic-Module-Name: HealthMonitoring
+Bundle-RequiredExecutionEnvironment: JavaSE-23
+Export-Package: aiFeature,
+ page_factory,
+ project_runner,
+ steps,
+ utility
